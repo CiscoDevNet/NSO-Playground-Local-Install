@@ -143,6 +143,7 @@ drwxr-xr-x 1 developer ncsadmin    31 Jun 28 11:05 web-ui
   - `$NCS_DIR` is a handy environment variable.
   - Use `env | grep -i ncs` to see the environment variables available by `ncs`.
 - The directory structure of the workspace matters, consider it when creating an example.
+- Always add a README.md file to the root directory of your repository with instructions on how to setup or run your example.
 - Use the **preview** feature (right click) in VS Code to the see the markdown files formatted.
 
    <img src="img/preview_md.png" width="1000px" height="auto" alt="markdown file">
