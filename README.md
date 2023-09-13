@@ -36,10 +36,11 @@ Once you click the **Run in Cloud IDE** button, you will see a VS Code instance 
 
 ## How can I add my own example?
 
-1. Specify which NSO variant you want to use and add it to your README.md file.
-2. Submit your repo on <https://developer.cisco.com/codeexchange/submit/>
-3. Once your submission is approved, your repository will be featured on the [Cisco Cloud IDE](https://developer.cisco.com/codeexchange/search/?complexity=devenv)
-4. That's it! Now you can start exploring, playing, and sharing your awesome examples. Let the creativity flow!
+1. Create an example you want to share on a public Github repository. Don't forget to add instructions.
+2. Specify the NSO variant (System/Local install) you want to use to your README.md file.
+3. Submit your repo on <https://developer.cisco.com/codeexchange/submit/>
+4. Once your submission is approved, your repository will be featured on the [Cisco Cloud IDE](https://developer.cisco.com/codeexchange/search/?complexity=devenv)
+5. That's it! Now you can start exploring, playing, and sharing your awesome examples. Let the creativity flow!
 
 ## Need help?
 
@@ -135,9 +136,14 @@ drwxr-xr-x 1 developer ncsadmin    31 Jun 28 11:05 web-ui
 ## Guidelines
 
 - Code shared is public, **avoid any confidential information.**
+- NSO Playground is designed for short "_How-to_" examples. Consider the following points when creating instructions:
+  - NSO Playground is **ephemeral**, any work not part of your remote Github repository will be lost.
+  - Containers offered have a lifespan of 2 hours. After 2 hours, you will be asked to start a new fresh session.
+  - If you need to work on NSO for a longer period of time, consider using a [free NSO evaluation copy](https://developer.cisco.com/docs/nso/#!getting-and-installing-nso/download-your-nso-free-trial-installer-and-cisco-neds) or [reserve a free DevNet sandbox.](https://developer.cisco.com/site/sandbox/)
 
 ## Recommendations
 
+- Create examples with an "_Infrastructure as a Code_" mindset. This means, everything needed to create your examples is in your Github repository.
 - It is recommended to avoid specifying NSO versions in the code, as the underlying NSO will be upgraded with newer releases.
 - As seen in the examples use environment variables when developing.
   - `$NCS_DIR` is a handy environment variable.
