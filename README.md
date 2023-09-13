@@ -8,6 +8,18 @@ But wait, there's more! You can also contribute your examples and share them wit
 
 If you are new to NSO, start with [NSO learning labs](https://developer.cisco.com/learning/search/?contentType=track,module,lab&keyword=nso&sortBy=luceneScore) where you will find step by step guides prepared by Cisco.
 
+## Variants
+
+The NSO Playground is available in **two** flavors, choose the environment that is better for you:
+
+- Local install. The environment associated with this repository.
+- System install. Based on the official NSO container.
+  - [See the System Install repository for more information](https://github.com/CiscoDevNet/NSO-Playground-System-Install)
+
+See [this guide](https://developer.cisco.com/docs/nso/#!getting-and-installing-nso/local-vs-system-installation) to learn the difference between System and Local install.
+
+The rest of this guide focus on the Local Install option.
+
 ## Explore
 
 Click [here to start using Cisco Cloud IDE](https://developer.cisco.com/codeexchange/devenv/CiscoDevNet/NSO-Playground-Local-Install)
@@ -24,9 +36,10 @@ Once you click the **Run in Cloud IDE** button, you will see a VS Code instance 
 
 ## How can I add my own example?
 
-1. Simply submit your repo on <https://developer.cisco.com/codeexchange/submit/>
-2. Once your submission is approved, your repository will be featured on the [Cisco Cloud IDE](https://developer.cisco.com/codeexchange/search/?complexity=devenv)
-3. That's it! Now you can start exploring, playing, and sharing your awesome examples. Let the creativity flow!
+1. Specify which NSO variant you want to use and add it to your README.md file.
+2. Submit your repo on <https://developer.cisco.com/codeexchange/submit/>
+3. Once your submission is approved, your repository will be featured on the [Cisco Cloud IDE](https://developer.cisco.com/codeexchange/search/?complexity=devenv)
+4. That's it! Now you can start exploring, playing, and sharing your awesome examples. Let the creativity flow!
 
 ## Need help?
 
