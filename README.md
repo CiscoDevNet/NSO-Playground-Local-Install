@@ -140,7 +140,7 @@ drwxr-xr-x 1 developer ncsadmin    31 Jun 28 11:05 web-ui
   - The NSO Playground container is **ephemeral**. Any work not present in your remote GitHub repository **will be lost.**
     - To save your work permanently, make sure to **merge** your changes in your remote GitHub repository.
   - The container in the NSO Playground has a lifespan of **2 hours.** After 2 hours, the container will be automatically destroyed.
-    - You will need to start a new session to continue working.
+    - You will be prompted to start a new session to continue working.
     - Time starts the moment you access the URL of the NSO Playground environment.
   - If you need to work on NSO for a longer period of time, consider using a [free NSO evaluation copy](https://developer.cisco.com/docs/nso/#!getting-and-installing-nso/download-your-nso-free-trial-installer-and-cisco-neds) or [reserve a free DevNet sandbox.](https://developer.cisco.com/site/sandbox/)
 - Only one environment at a time can be used per user logged in Code Exchange.
