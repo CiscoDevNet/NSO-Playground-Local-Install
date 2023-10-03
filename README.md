@@ -195,7 +195,7 @@ Go to [Cisco Code Exchange](https://developer.cisco.com/codeexchange/search/?com
   - Expand the `/home/developer/src` in the workspace
   - or do `ls -l /home/developer/src`
 
-## Known limitations
+## Known Limitations
 
-- Access to the WebUI through port forwarding doesn't work. You can enable the WebUI and access the login screen, but you can't authenticate.
-  - This is due to port forwarding in VS Code and `same-origin` CORS policy on web browsers.
+- Accessing the WebUI through port forwarding does not work. While you can enable the WebUI and access the login screen, authentication will not be possible.
+  - This limitation is a result of port forwarding in VS Code and the `same-origin` CORS policy enforced by web browsers.
