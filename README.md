@@ -169,6 +169,24 @@ Go to [Cisco Code Exchange](https://developer.cisco.com/codeexchange/search/?com
 
 ## FAQ
 
+- Where is the NSO webUI?
+
+  - Assuming you are using the default port 8080, the URL can be obtained through the `DEVENV_APP_8080_URL` environment variable in your terminal. The webUI default credentials are `admin/admin`
+
+    ```bash
+    echo $DEVENV_APP_8080_URL
+    ```
+
+    <img src="img/webui_url.png" width="1000px" height="auto" alt="webUI URL">
+
+    <img src="img/webui.png" width="1000px" height="auto" alt="webUI">
+
+  - If you are unsure of the port used, see the available envrionment variables with:
+
+    ```bash
+    env | grep -i devenv_app
+    ```
+
 - What NEDs come with the container?
 
   - Example NEDs. These should be considered as examples. NEDs in the container are only used to run the simulated networks. Do not use these with real devices.
@@ -194,8 +212,3 @@ Go to [Cisco Code Exchange](https://developer.cisco.com/codeexchange/search/?com
 
   - Expand the `/home/developer/src` in the workspace
   - or do `ls -l /home/developer/src`
-
-## Known Limitations
-
-- Accessing the WebUI through port forwarding does not work. While you can enable the WebUI and access the login screen, authentication will not be possible.
-  - This limitation is a result of port forwarding in VS Code and the `same-origin` CORS policy enforced by web browsers.
