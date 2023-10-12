@@ -171,7 +171,7 @@ Go to [Cisco Code Exchange](https://developer.cisco.com/codeexchange/search/?com
 
 - Where is the NSO webUI?
 
-  - Assuming that you are using the default port 8080, the URL can be obtained through the `DEVENV_APP_8080_URL` environment variable in your terminal. You can access the webUI with admin/admin considering you used the default user.
+  - Assuming you are using the default port 8080, the URL can be obtained through the `DEVENV_APP_8080_URL` environment variable in your terminal. The webUI default credentials are `admin/admin`
 
     ```bash
     echo $DEVENV_APP_8080_URL
