@@ -6,7 +6,7 @@ Explore and experiment with the world of NSO on Cisco Code Exchange, where you c
 
 But wait, there's more! You can also contribute your examples and share them with everyone. The best part is your peers can play with your examples without installing anything.
 
-If you are new to NSO, start with the [NSO Learning Labs](https://developer.cisco.com/learning/search/?contentType=track,module,lab&keyword=nso&sortBy=luceneScore), where Cisco has prepared step-by-step guides for you.
+If you are new to NSO, start with the [NSO Learning Labs](https://developer.cisco.com/learning/search/?contentType=track,module,lab&keyword=nso&sortBy=luceneScore), where you can find step-by-step guides.
 
 ## Variants
 
