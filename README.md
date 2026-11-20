@@ -66,7 +66,7 @@ This short example demonstrates how you can set up a simulated network of Cisco 
 
    ```bash
    source $NCS_DIR/ncsrc
-   ncs-netsim --dir ~/example/netsim create-network cisco-ios-cli-3.8 2 ios
+   ncs-netsim --dir ~/example/netsim create-network $NCS_DIR/examples.ncs/common/packages/cisco-ios-netsim-cli-1.0 2 ios
    ncs-setup --dest ~/example --netsim-dir ~/example/netsim
    ```
 
@@ -209,19 +209,26 @@ Go to [Cisco Code Exchange](https://developer.cisco.com/codeexchange/search/?com
   - Example NEDs, which must be considered as examples. NEDs in the container are only used to run the simulated networks. Do not use these example NEDs with real devices.
 
     ```bash
-    developer:~ > ls -1 $NCS_DIR/packages/neds/
-    a10-acos-cli-3.0
-    alu-sr-cli-3.4
-    cisco-asa-cli-6.6
-    cisco-ios-cli-3.0
-    cisco-ios-cli-3.8
-    cisco-iosxr-cli-3.0
-    cisco-iosxr-cli-3.5
-    cisco-nx-cli-3.0
-    dell-ftos-cli-3.0
-    juniper-junos-nc-3.0
-    developer:~ > ls -1 $NCS_DIR/packages/neds/ | wc -l
-    10
+    developer:~ > ls -1 $NCS_DIR/examples.ncs/common/packages/
+    a10-acos-netsim-cli-1.0
+    alu-sr-netsim-cli-1.0
+    arista-dcs-netsim-cli-1.0
+    cisco-asa-netsim-cli-1.0
+    cisco-ios-netsim-cli-1.0
+    cisco-iosxr-netsim-cli-1.0
+    cisco-iosxr-netsim-nc-1.0
+    cisco-nx-netsim-cli-1.0
+    dell-ftos-netsim-cli-1.0
+    juniper-junos-netsim-nc-1.0
+    l3vpn
+    Makefile
+    README.md
+    router-cli-1.0
+    router-nc-1.0
+    router-nc-1.1
+    router-rc-1.0
+    developer:~ > ls -1 $NCS_DIR/examples.ncs/common/packages/ | wc -l
+    17
     developer:~ >
     ```
 
